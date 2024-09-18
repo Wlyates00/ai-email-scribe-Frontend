@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# AI Email Writer Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the frontend application for the **AI Email Writer** project, a platform that enables users to generate various email styles (e.g., formal, casual, apologetic) and handle donations through Stripe integration. The project is built using React, integrating third-party services like Stripe for payment processing.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **AI-Generated Emails**: Create and generate emails with various tones using the AI email writer.
+- **Donation Banner**: Allows users to donate via Stripe with customizable donation amounts.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Form Validation**: Validates input fields before submission.
+- **Error Handling**: Provides feedback on payment errors or form submission issues.
+- **SweetAlert Integration**: Displays success messages for form submissions and payment completions.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: JavaScript library for building user interfaces.
+- **Stripe**: For handling secure payment processing.
+- **React Stripe.js**: To integrate Stripe's payment elements into the frontend.
+- **Bootstrap**: For faster styling.
+- **React Bootstrap**: To integrate bootstrap into react app.
+- **CSS**: Custom styles for the frontend components.
+- **Web3Forms**: For handling form submissions (such as contact forms).
+- **SweetAlert**: For alert dialogs on form submission success.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Node.js** and **npm** installed.
+- Access to a Stripe account to set up payment processing and for API keys.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/yourusername/ai-email-writer-frontend.git
+   cd ai-email-writer-frontend
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install Dependencies
 
-### `npm run eject`
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Environment Variable
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Create a .env file at the root of your project with the following environment variables:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```env
+REACT_APP_STRIPE_PUBLIC_KEY=your_stripe_public_key
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Running the App
 
-## Learn More
+To run the app use:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+node api.js
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This will start the app on `http://localhost:3000`

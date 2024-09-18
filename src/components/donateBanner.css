@@ -1,0 +1,70 @@
+.banner {
+  width: 100%;
+  height: fit-content;
+  background-color: #479191;
+}
+
+.donate-header {
+  padding-top: 10px;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 700;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.card-form-container {
+  width: 100%;
+  max-width: 580px;
+  padding-bottom: 15px;
+  display: none;
+}
+
+.donate-desc {
+  color: white;
+}
+
+.donate-button {
+  width: fit-content;
+  min-width: 75px;
+  font-size: 2.17em;
+  font-family: "Oswald";
+  background-color: #8abfbf; /* Green */
+  border: 2px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  color: white;
+}
+.donate-buttons {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.donate-button:hover {
+  cursor: pointer;
+  border: 2px solid black;
+}
+.selected {
+  border: 2px solid black;
+  background-color: #387777;
+}
+
+.card {
+  margin-bottom: 15px;
+}
+
+.donate-submit {
+  width: fit-content;
+  font-size: 1.4em;
+  font-family: "Oswald";
+  background-color: #8abfbf; /* Green */
+  border: 2px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+}

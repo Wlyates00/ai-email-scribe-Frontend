@@ -1,0 +1,94 @@
+.footer-container {
+  height: fit-content;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  border: 3px solid #479191;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.contact h1 {
+  color: black;
+  padding-top: 1.5rem;
+  font-family: Oswald, "Arial";
+  padding-bottom: 1rem;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: #479191;
+}
+
+.field {
+  width: 32rem;
+  height: 40px;
+  background: transparent;
+  border-color: #479191;
+  border-radius: 5px;
+  color: black;
+}
+
+.field::placeholder {
+  color: rgb(54, 53, 53);
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  margin-bottom: 1.5rem; /* Space between input boxes */
+}
+
+.field.mess {
+  height: 200px;
+  resize: none;
+}
+
+.input-box label {
+  color: black;
+  font-size: 1.17em;
+  font-family: "Arial";
+}
+
+.contact button {
+  margin-bottom: 1.5rem;
+}
+
+.field:focus {
+  color: black;
+  outline: none !important;
+}
+
+@media (max-width: 586px) {
+  .field {
+    width: 18rem;
+  }
+}
+
+.git {
+  padding-left: 0.75rem;
+  font-size: 2em;
+  color: white;
+}
+
+.linked {
+  padding-right: 0.75rem;
+  font-size: 2em;
+  color: white;
+}
+
+.send-btn {
+  border: 2px solid #479191;
+  background: #8abfbf;
+  border-radius: 4px;
+  font-family: "Arial";
+  font-weight: 400;
+}
+.send-btn:hover {
+  border: 2px solid black;
+  background-color: #479191;
+  border-radius: 4px;
+}

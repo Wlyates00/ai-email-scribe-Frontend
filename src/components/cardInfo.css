@@ -1,0 +1,15 @@
+.donate-submit {
+  width: 100px;
+  font-size: 1.17;
+  font-family: "Oswald";
+  background-color: #8abfbf; /* Green */
+  border: 2px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.donate-submit:hover {
+  border: 3px solid black;
+}
