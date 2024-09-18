@@ -34,8 +34,8 @@ This is the frontend application for the **AI Email Writer** project, a platform
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/ai-email-writer-frontend.git
-   cd ai-email-writer-frontend
+   git clone https://github.com/Wlyates00/ai-email-scribe-Frontend
+   cd ai-email-writer-Frontend
    ```
 
 2. Install Dependencies
@@ -57,7 +57,7 @@ REACT_APP_STRIPE_PUBLIC_KEY=your_stripe_public_key
 To run the app use:
 
 ```bash
-node api.js
+npm start
 ```
 
 This will start the app on `http://localhost:3000`
