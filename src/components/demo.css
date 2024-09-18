@@ -137,6 +137,7 @@ select {
 /** CUSTOM SUBMIT BUTTON **/
 
 .submit-btn {
+  margin-top: 6px;
   font-family: "Oswald";
   background-color: #8abfbf; /* Green */
   border: 2px solid #479191;
