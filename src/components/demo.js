@@ -8,6 +8,8 @@ const Demo = () => {
   const [isProcessing, setisProcessing] = useState(false);
 
   const handleDemoSubmit = async () => {
+    document.getElementById("emailOutput").innerText = "[Generating]";
+
     // Stopping people from spamming results
     setisProcessing(true);
 
