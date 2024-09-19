@@ -50,6 +50,8 @@ Create a .env file at the root of your project with the following environment va
 
 ```env
 REACT_APP_STRIPE_PUBLIC_KEY=your_stripe_public_key
+REACT_APP_DONATION_API_URL=your_api_endpoint
+REACT_APP_OPENAI_API_URL=your_api_endpoint
 ```
 
 ## Running the App
