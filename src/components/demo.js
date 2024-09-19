@@ -18,7 +18,7 @@ const Demo = () => {
     // Trying an API call to the BUILT backend (not Open AI API)
     try {
       // Send a POST request to your backend API
-      const response = await fetch("http://localhost:3200/api/generate-email", {
+      const response = await fetch(process.env.REACT_APP_OPENAI_API_URL, {
         // Sending to the server
         method: "POST",
         // Setting header Content-Type

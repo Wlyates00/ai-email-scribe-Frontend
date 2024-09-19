@@ -5,9 +5,7 @@ import "./donateBanner.css";
 import CreditCard from "./cardInfo";
 import { Container } from "react-bootstrap";
 
-const stripePromise = loadStripe(
-  process.env.REACT_APP_STRIPE_PUBLIC_KEY.toString()
-);
+const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
 
 const DonationBanner = () => {
   // Keep track if of an amount

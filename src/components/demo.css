@@ -151,6 +151,9 @@ select {
   cursor: pointer;
 }
 
+.submit-btn:focus {
+  border: 2px solid black;
+}
 @media (max-width: 992px) {
   .header {
     padding-top: 10px;

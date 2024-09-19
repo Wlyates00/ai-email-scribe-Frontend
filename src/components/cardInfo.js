@@ -29,7 +29,7 @@ const CreditCard = ({ amount }) => {
       setIsProcessing(false);
     } else {
       // Make a request to backend to create a payment intent and confirm the payment
-      const response = await fetch("http://localhost:3200/donations/", {
+      const response = await fetch(process.env.REACT_APP_DONATION_API_URL, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
