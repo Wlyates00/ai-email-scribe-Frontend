@@ -64,8 +64,10 @@ const Demo = () => {
           xs={6}
           className="demo-col d-flex flex-column align-items-center text-center"
         >
-          <h1 className="header">Try Out Our Demo</h1>
-          <p className="desc">
+          <h1 className="header" id="demo-header">
+            Try Out Our Demo
+          </h1>
+          <p className="desc" id="demo-desc">
             We strive to make emailing easier for users. Given a tone along with
             a prompt, our extension provides an easy way to get emails to others
             faster.

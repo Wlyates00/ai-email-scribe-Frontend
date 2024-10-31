@@ -14,10 +14,14 @@ const navbar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#contact" className="link-contact">
+            <Nav.Link
+              href="#contact"
+              className="link-contact"
+              id="contact-link"
+            >
               Contact
             </Nav.Link>
-            <Nav.Link href="#donate" className="link-donate">
+            <Nav.Link href="#donate" className="link-donate" id="donate-link">
               Donate
             </Nav.Link>
           </Nav>

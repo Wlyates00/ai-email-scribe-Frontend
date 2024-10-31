@@ -42,6 +42,7 @@ const Contact = () => {
             type="text"
             className="field"
             placeholder="Enter your name"
+            id="name-text"
             required
           />
         </div>
@@ -52,6 +53,7 @@ const Contact = () => {
             type="email"
             className="field"
             placeholder="Enter your email"
+            id="email-text"
             required
           />
         </div>
@@ -61,10 +63,15 @@ const Contact = () => {
             name="message"
             className="field mess"
             placeholder="Enter your message"
+            id="message-text"
             required
           />
         </div>
-        <button className="btn btn-light send-btn" type="submit">
+        <button
+          className="btn btn-light send-btn"
+          type="submit"
+          id="submit-contact-form"
+        >
           Send
         </button>
       </form>

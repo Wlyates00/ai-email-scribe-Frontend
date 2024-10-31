@@ -42,6 +42,7 @@ const DonationBanner = () => {
           key={1}
           onClick={handleAmountClick}
           value={1}
+          id="donate-1"
         >
           $1
         </button>
@@ -50,6 +51,7 @@ const DonationBanner = () => {
           key={5}
           onClick={handleAmountClick}
           value={5}
+          id="donate-5"
         >
           $5
         </button>
@@ -58,6 +60,7 @@ const DonationBanner = () => {
           key={10}
           onClick={handleAmountClick}
           value={10}
+          id="donate-10"
         >
           $10
         </button>
@@ -66,6 +69,7 @@ const DonationBanner = () => {
           key={20}
           onClick={handleAmountClick}
           value={20}
+          id="donate-20"
         >
           $20
         </button>
@@ -74,6 +78,7 @@ const DonationBanner = () => {
           key={50}
           onClick={handleAmountClick}
           value={50}
+          id="donate-50"
         >
           $50
         </button>
@@ -82,6 +87,7 @@ const DonationBanner = () => {
           key={100}
           onClick={handleAmountClick}
           value={100}
+          id="donate-100"
         >
           $100
         </button>

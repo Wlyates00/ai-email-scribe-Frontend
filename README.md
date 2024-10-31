@@ -1,4 +1,4 @@
-# AI Email Writer Frontend
+# AI Email Writer Frontend 📧
 
 This is the frontend application for the **AI Email Writer** project, a platform that enables users to generate various email styles (e.g., formal, casual, apologetic) and handle donations through Stripe integration. The project is built using React, integrating third-party services like Stripe for payment processing.
 

@@ -23,6 +23,9 @@
   font-size: 1.05em;
   font-family: "Open Sans";
 }
+.text-1 {
+  width: 350px;
+}
 
 .product-container {
   padding-top: 20px;
