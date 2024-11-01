@@ -34,7 +34,7 @@ const Contact = () => {
   return (
     <div id="contact" className="container-fluid footer-container">
       <form onSubmit={onSubmit} className="container contact">
-        <h1>CONTACT US</h1>
+        <h1 id="contact-heading">CONTACT US</h1>
         <div className="input-box">
           <label>Full Name</label>
           <input

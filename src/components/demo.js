@@ -86,7 +86,7 @@ const Demo = () => {
             </label>
             <br />
             <div className="select-dropdown" name="" id="custom-tone" required>
-              <select>
+              <select id="checkbox-tone">
                 <option value="Happy">Happy</option>
                 <option value="angry">Angry</option>
                 <option value="sad">Sad</option>

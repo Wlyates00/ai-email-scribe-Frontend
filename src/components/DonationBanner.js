@@ -32,8 +32,10 @@ const DonationBanner = () => {
 
   return (
     <div className="banner text-center" id="donate">
-      <h1 className="donate-header">Donate</h1>
-      <p className="donate-desc">
+      <h1 className="donate-header" id="donate-heading">
+        Donate
+      </h1>
+      <p className="donate-desc" id="donate-description">
         <em>Donations allow us to keep generating AI emails!</em>
       </p>
       <div className="donate-buttons d-flex justify-content-center">
