@@ -2,6 +2,8 @@
 
 This is the frontend application for the **AI Email Writer** project, a platform that enables users to generate various email styles (e.g., formal, casual, apologetic) and handle donations through Stripe integration. The project is built using React, integrating third-party services like Stripe for payment processing.
 
+API: `https://github.com/Wlyates00/ai-email-scribe-API`
+
 ## Features
 
 - **AI-Generated Emails**: Create and generate emails with various tones using the AI email writer.
